@@ -1,0 +1,18 @@
+{
+  "name": "perenciolo/ecommerce",
+  "description": "Simple ecommerce store",
+  "authors": [{
+    "name": "Gustavo Perenciolo",
+    "email": "contategustavoh@gmail.com"
+  }],
+  "require": {
+    "phpmailer/phpmailer": "5.2.22",
+    "slim/slim": "2.0",
+    "rain/raintpl": "3.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "vendor\\blackowl\\php-classes\\src"
+    }
+  }
+}
